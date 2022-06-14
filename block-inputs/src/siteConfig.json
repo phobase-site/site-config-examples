@@ -1,0 +1,12 @@
+{
+  "pages": [{
+    "name": "Home",
+    "blocks": [{
+      "name": "Body",
+      "inputs": [{
+        "name": "Title",
+        "value": ""
+      }]
+    }]
+  }]
+}

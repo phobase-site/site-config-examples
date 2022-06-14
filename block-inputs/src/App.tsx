@@ -1,6 +1,11 @@
+import { InputResolver } from '@phobase/site';
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import siteConfig from './siteConfig.json';
+import { BODY, HOME, TITLE } from './siteConfig'
+
+const inputResolver = new InputResolver(siteConfig);
 
 function App() {
   return (
@@ -16,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {inputResolver.readInput<string>(HOME, BODY, TITLE).ok}
         </a>
       </header>
     </div>
