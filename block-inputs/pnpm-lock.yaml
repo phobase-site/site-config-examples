@@ -9,6 +9,7 @@ specifiers:
   '@types/node': ^16.11.39
   '@types/react': ^18.0.12
   '@types/react-dom': ^18.0.5
+  '@types/testing-library__jest-dom': ^5.14.5
   react: ^18.1.0
   react-dom: ^18.1.0
   react-scripts: 5.0.1
@@ -24,6 +25,7 @@ dependencies:
   '@types/node': 16.11.39
   '@types/react': 18.0.12
   '@types/react-dom': 18.0.5
+  '@types/testing-library__jest-dom': 5.14.5
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   react-scripts: 5.0.1_cn5jcockkrembw54osxy7yvfpi
@@ -2153,7 +2155,7 @@ packages:
     engines: {node: '>=8', npm: '>=6', yarn: '>=1'}
     dependencies:
       '@babel/runtime': 7.18.3
-      '@types/testing-library__jest-dom': 5.14.3
+      '@types/testing-library__jest-dom': 5.14.5
       aria-query: 5.0.0
       chalk: 3.0.0
       css: 3.0.0
@@ -2431,8 +2433,8 @@ packages:
     resolution: {integrity: sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==}
     dev: false
 
-  /@types/testing-library__jest-dom/5.14.3:
-    resolution: {integrity: sha512-oKZe+Mf4ioWlMuzVBaXQ9WDnEm1+umLx0InILg+yvZVBBDmzV5KfZyLrCvadtWcx8+916jLmHafcmqqffl+iIw==}
+  /@types/testing-library__jest-dom/5.14.5:
+    resolution: {integrity: sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==}
     dependencies:
       '@types/jest': 27.5.2
     dev: false
